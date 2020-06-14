@@ -6,6 +6,11 @@
     <title>Quản lý user</title>
 </head>
 <body>
-    
+    <?php
+        include "Model/DBconfig.php";
+        $db = new DBconfig;
+        $db->connect();
+
+    ?>
 </body>
 </html>
